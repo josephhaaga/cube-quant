@@ -50,7 +50,7 @@ class GoogleSheets:
             with open(self.tokenpath, "wb") as token:
                 pickle.dump(self.creds, token)
 
-        self.service = build("sheets", "v4", credentials=self.creds)
+        self.service = build("sheets", "v4", credentials=self.creds, cache_discovery=False)
 
     def _load_token(self):
         with open(self.tokenpath, "rb") as token:
