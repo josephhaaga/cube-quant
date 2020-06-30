@@ -3,6 +3,7 @@ import datetime
 import pickle
 import os.path
 from pathlib import Path
+import logging
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
@@ -12,6 +13,13 @@ import pandas as pd
 import calendar
 from sklearn import linear_model
 
+
+logging.getLogger('googleapicliet.discovery_cache').setLevel(logging.ERROR)
+
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s — %(message)s',
+                    datefmt='%Y-%m-%d_%H:%M:%S',
+                    handlers=[logging.FileHandler('model_performance.log', encoding='utf-8')])
 
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
@@ -102,7 +110,9 @@ def build_model_and_predict():
     model = fit_regression_model(X, y)
     next_cube = generate_x(attempt_number, day)
     prediction = model.predict([next_cube])
-    print(f"Attempt #{attempt_number} on a {day} will take: {round(prediction[0])} seconds")
+    rounded_prediction = round(prediction[0])
+    print(f"Attempt #{attempt_number} on a {day} will take: {rounded_prediction} seconds")
+    logging.info(f"Predicting attempt #{attempt_number} on a {day} will take: {rounded_prediction} seconds")
     return prediction
 
 if __name__ == "__main__":
