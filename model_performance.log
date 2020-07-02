@@ -3,10 +3,6 @@
 2020-07-01_09:22:38 — URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
 2020-07-01_09:22:39 — URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1fR7O9sgzjfrYCJN2ITZzFYjHiSQUUf_DkuxsfbutZms/values/Sheet1%21A3%3AB?alt=json
 2020-07-01_09:22:39 — NumExpr defaulting to 8 threads.
-2020-07-01_09:22:39 — Predicting attempt #1 on a Wednesday will take: 30.0 seconds
-2020-07-01_09:32:48 — URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
-2020-07-01_09:32:48 — URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1fR7O9sgzjfrYCJN2ITZzFYjHiSQUUf_DkuxsfbutZms/values/Sheet1%21A3%3AB?alt=json
-2020-07-01_09:32:49 — NumExpr defaulting to 8 threads.
 2020-07-01_09:32:49 — Predicting attempt #1 on a Wednesday will take: 32.0 seconds
 2020-07-01_09:32:54 — URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
 2020-07-01_09:32:54 — URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1fR7O9sgzjfrYCJN2ITZzFYjHiSQUUf_DkuxsfbutZms/values/Sheet1%21A3%3AB?alt=json
@@ -22,3 +18,23 @@
 2020-07-01_09:36:29 — URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1fR7O9sgzjfrYCJN2ITZzFYjHiSQUUf_DkuxsfbutZms/values/Sheet1%21A3%3AB?alt=json
 2020-07-01_09:36:32 — NumExpr defaulting to 8 threads.
 2020-07-01_09:36:32 — Predicting attempt #2 on a Wednesday will take: 34.0 seconds
+2020-07-01_10:34:08 — URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2020-07-01_10:34:09 — URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1fR7O9sgzjfrYCJN2ITZzFYjHiSQUUf_DkuxsfbutZms/values/Sheet1%21A3%3AB?alt=json
+2020-07-01_10:34:10 — NumExpr defaulting to 8 threads.
+2020-07-01_10:34:10 — Predicting attempt #3 on a Wednesday will take: 36.0 seconds
+2020-07-01_10:36:04 — URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2020-07-01_10:36:05 — URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1fR7O9sgzjfrYCJN2ITZzFYjHiSQUUf_DkuxsfbutZms/values/Sheet1%21A3%3AB?alt=json
+2020-07-01_10:36:06 — NumExpr defaulting to 8 threads.
+2020-07-01_10:36:06 — Predicting attempt #4 on a Wednesday will take: 43.0 seconds
+2020-07-02_12:37:49 — URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2020-07-02_12:37:50 — URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1fR7O9sgzjfrYCJN2ITZzFYjHiSQUUf_DkuxsfbutZms/values/Sheet1%21A3%3AB?alt=json
+2020-07-02_12:37:50 — NumExpr defaulting to 8 threads.
+2020-07-02_12:37:50 — Predicting attempt #1 on a Thursday will take: 34.0 seconds
+2020-07-02_12:38:16 — URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2020-07-02_12:38:16 — URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1fR7O9sgzjfrYCJN2ITZzFYjHiSQUUf_DkuxsfbutZms/values/Sheet1%21A3%3AB?alt=json
+2020-07-02_12:38:17 — NumExpr defaulting to 8 threads.
+2020-07-02_12:38:17 — Predicting attempt #1 on a Thursday will take: 38.0 seconds
+2020-07-02_12:38:39 — URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2020-07-02_12:38:40 — URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1fR7O9sgzjfrYCJN2ITZzFYjHiSQUUf_DkuxsfbutZms/values/Sheet1%21A3%3AB?alt=json
+2020-07-02_12:38:40 — NumExpr defaulting to 8 threads.
+2020-07-02_12:38:40 — Predicting attempt #2 on a Thursday will take: 41.0 seconds

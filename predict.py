@@ -103,7 +103,7 @@ def generate_x(attempt_number, day):
 def build_model_and_predict():
     a = get_data_from_spreadsheet()
     today = datetime.datetime.now()
-    attempts_today = a[a['Date of Attempt'] == today.strftime("%m/%-d/%Y")]
+    attempts_today = a[a['Date of Attempt'] == today.strftime("%m/%d/%Y")]
     attempt_number = len(attempts_today) + 1
     day = calendar.day_name[today.weekday()]
     X, y = engineer_model_features(a)
